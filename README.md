@@ -85,5 +85,7 @@ Null
 ---
 
 ### 참고 사항
--- [try helloworld](http://tryhelloworld.co.kr/courses/unity%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-csharp) <br>
--- [Unity Korea](https://unity3d.com/kr/learn)
+공부해라 노예들아 모르는 건 서치해라
+-- [try helloworld](http://tryhelloworld.co.kr/courses/unity%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-csharp) - 유니티의 기본을 배워라 <br>
+-- [Unity Korea 교육자료](https://unity3d.com/kr/learn) - 공홈이 너희를 인도하리라 <br>
+-- [Unity Manual](https://docs.unity3d.com/kr/current/Manual/UnityManual.html) - API가 너희를 구원하리라 <br>
