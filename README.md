@@ -17,6 +17,16 @@ Null
 -- 항상 저장소를 최신으로 유지하기 위함입니다. <br>
 
 ---
+**remote 설정 관련 에러가 발생하는 경우** <br>
+원인 : origin 주소가 개인 저장소가 아닌 팀 저장소로 지정됨. == 권한없음
+
+>**1)git bash 실행 후, 해당 디렉터리로 이동<br>
+2)git remote -v 입력 후, origin 주소 확인시,<br> https://github.com/Awesome-Team-Name/Julue-Marble.git 로 보인다면 수정 필요<br>
+3)git remote set-url origin https:본인 fork 저장소 입력<br>
+4)다시 git remote -v 입력 후 잘 변경되었는지 확인.**<br>
+<br>
+
+---
 ## 프로그램 작성자들이 지켜주어야 할 규칙
 ### 1. Commit 전 fetch, merge 하기
 -- 안 하면 그 목숨은 보장할 수 없다. <br>
@@ -80,17 +90,6 @@ Null
 -- 다른 팀원들이 새로 업로드 했을 경우, **fetch -> merge -> push**를 한다.<br>
 
 ---
-**remote 설정 관련 에러가 발생하는 경우** <br>
-원인 : origin 주소가 개인 저장소가 아닌 팀 저장소로 지정됨. == 권한없음
-
->**1)git bash 실행 후, 해당 디렉터리로 이동<br>
-2)git remote -v 입력 후, origin 주소 확인시,<br> https://github.com/Awesome-Team-Name/Julue-Marble.git 로 보인다면 수정 필요<br>
-3)git remote set-url origin https:본인 fork 저장소 입력<br>
-4)다시 git remote -v 입력 후 잘 변경되었는지 확인.**<br>
-<br>
-
----
-
 ### 참고 사항
 #### 공부해라 노예들아 모르는 건 서치해라 
 -- **[try helloworld - Unity](http://tryhelloworld.co.kr/courses/unity%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-csharp)** :: 유니티를 맛보아라 <br>
