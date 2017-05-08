@@ -20,11 +20,10 @@ Null
 **remote 설정 관련 에러가 발생하는 경우** <br>
 원인 : origin 주소가 개인 저장소가 아닌 팀 저장소로 지정됨. == 권한없음
 
->**1)git bash 실행 후, 해당 디렉터리로 이동<br>
+>1)git bash 실행 후, 해당 디렉터리로 이동<br>
 2)git remote -v 입력 후, origin 주소 확인시,<br> https://github.com/Awesome-Team-Name/Julue-Marble.git 로 보인다면 수정 필요<br>
 3)git remote set-url origin https:본인 fork 저장소 입력<br>
-4)다시 git remote -v 입력 후 잘 변경되었는지 확인.**<br>
-<br>
+4)다시 git remote -v 입력 후 잘 변경되었는지 확인.<br>
 
 ---
 ## 프로그램 작성자들이 지켜주어야 할 규칙
