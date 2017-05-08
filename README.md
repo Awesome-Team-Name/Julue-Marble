@@ -10,6 +10,13 @@ This project only written by Korean.
 Null
 
 ---
+## git clone 직후 할 것
+
+git remote add upstream https://github.com/Awesome-Team-Name/Julue-Marble.git
+-upstream 저장소를 해당 url로 지정합니다.(최초 한번만 실행하도록 합시다.)
+-항상 저장소를 최신으로 유지하기 위함입니다.
+
+---
 ## 프로그램 작성자들이 지켜주어야 할 규칙
 ### 1. Commit 전 fetch, merge 하기
 -- 안 하면 그 목숨은 보장할 수 없다. <br>
