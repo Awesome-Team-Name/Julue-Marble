@@ -24,8 +24,6 @@ public class GameManager : MonoBehaviour {
     {
         dice1_value = dice1.GetComponent<Die_d6>().getValue();
         dice2_value = dice2.GetComponent<Die_d6>().getValue();
-
-        Debug.Log("dice1 : " + dice1_value + "dice2 : " + dice2_value);
     }
 
     // get
