@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TileManager : MonoBehaviour {
     public Transform nextTransform;
+    public GameObject nextTile;
 
 	// Use this for initialization
 	void Start () {
