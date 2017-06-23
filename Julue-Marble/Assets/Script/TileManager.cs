@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class button : MonoBehaviour {
+public class TileManager : MonoBehaviour {
+    public Transform nextTransform;
+    public GameObject nextTile;
 
 	// Use this for initialization
 	void Start () {
@@ -12,11 +14,5 @@ public class button : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
-	}
-	void GUI()
-	{
-		if (GUI.Button (UnityEngine.Rect (10, 10, 100, 100), "ROLL")) {
-			GameManager.isDiceRoll = true;
-		}
 	}
 }
