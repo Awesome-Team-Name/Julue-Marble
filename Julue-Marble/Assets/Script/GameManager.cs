@@ -30,10 +30,6 @@ public class GameManager : MonoBehaviour {
             isDiceRoll = false;
         }
     }
-	void ReRoll()
-	{
-		isDiceRoll = true;
-	}
 
     // dice의 value 받아오기
     private void updateDice()
